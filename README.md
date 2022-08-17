@@ -1,33 +1,15 @@
-# CodeLens Sample
+# Uuid Easy VS Code
 
-This is a sample extension that shows the usage of the CodeLens API.
+## Install
 
-It is not intended as a production quality extension.
+Install via the context menu from the vsix file (F1 -> Extensions: Install from VSIX)
 
-- Create a new file
-- Write anything
-- Click on the CodeLens for action example
-- Can be enabled or disabled by command palette
+## Usage
 
-## Demo
+Should be enabled for all text editors by default.
 
-![demo](demo.gif)
+Disable with context menu command `Uuid Easy: Disable Easy Uuid`
 
-## VS Code API
+Enable with context menu command `Uuid Easy: Enable Easy Uuid`
 
-### `languages` module
-
-- [`languages.registerCodeLensProvider`](https://code.visualstudio.com/api/references/vscode-api#languages.registerCodeLensProvider)
-
-### CodeLens Provider
-
-- [`CodeLensProvider`](https://code.visualstudio.com/api/references/vscode-api#CodeLensProvider)
-- [`CodeLensProvider.provideCodeLenses`](https://code.visualstudio.com/api/references/vscode-api#CodeLensProvider.provideCodeLenses)
-- [`CodeLensProvider.resolveCodeLens`](https://code.visualstudio.com/api/references/vscode-api#CodeLensProvider.resolveCodeLens)
-
-## Running the Sample
-
-- Run `npm install` in terminal to install dependencies
-- Run the `Run Extension` target in the Debug View. This will:
-	- Start a task `npm: watch` to compile the code
-	- Run the extension in a new VS Code window
+Set in the settings UI (F1 -> Preferences: Open Settings (UI)) and search for easy.
