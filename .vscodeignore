@@ -1,0 +1,8 @@
+.history
+.vscode
+node_modules
+src/
+out/main.js.map
+tsconfig.json
+webpack.config.js
+../uuid-easy
